@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-Zone-Here</title>
+    <!-- style css folder adding -->
+    <link rel="stylesheet" href="Style_css/style.css">
+    <!-- tailwind and daizy is here -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom color is here -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
 </head>
+
 <body>
-    
+    <div class="hero  bg-base-200">
+  <div class="hero-content flex">
+    <div>
+      <h1 class="text-5xl font-bold">Box Office News!</h1>
+      <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+    <img src="tea-house-resources/images/banner.png" alt="">
+  </div>
+</div>
 </body>
+
 </html>
